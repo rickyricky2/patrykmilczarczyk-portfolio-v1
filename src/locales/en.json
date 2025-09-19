@@ -1,0 +1,145 @@
+{
+  "header": {
+    "menu": {
+      "about": "About me",
+      "technologies": "Technologies",
+      "skills": "Skills",
+      "certificates": "Certyficates",
+      "education": "Education",
+      "experience": "Experience",
+      "projects": "Projects"
+    }
+  },
+  "hero": {
+    "name": "Patryk Milczarczyk",
+    "cv": {
+      "heading": "My CV",
+      "href": "/CVEN2025.pdf"
+    },
+    "resume": {
+      "heading": "My Resume",
+      "href": "/RESUMEEN2025.pdf"
+    }
+  },
+  "about": {
+    "heading": "ABOUT ME",
+    "description": "Jestem 20 letnim studentem Politechniki Łódzkiej, który pasjonuje się informatyką oraz programowaniem.\nSkończyłem technikum informatyczne w Opocznie które dało mi dużo podstawowej wiedzy o systemach, bazach danych, algorytmach oraz stronach internetowych. W czasie trwania nauki w tej szkole uczęszczałęm do kółka Pythona, skończyłem wiele kursów oraz kilka moich pierwszych projektów.\nBardzo szybko sie rozwijam i przykładam sie do moich zainteresowań, w szkole średniej mocno wyprzedzałem materiał o czym świadczy fakt, że byłem finalistą olimpiady \"Rok przed dyplomem\", gdzie zdałem egzamin zawodowy rok przed faktycznym egzaminem bez przygotowania od strony nauczycieli. Zdałem maturę rozszerzając angielski, matematykę oraz informatykę.\nSwój wolny czas poświęcam na dalszą naukę lub tworzenie projektów takich jak, np. moja strona investo. Jako informatyk jednocześnie mam obycie z programowaniem oraz wiem jak komputery i różne systemy działają od podstaw.\nUmiem tworzyć strony internetowe od strony frontendu jak i backendu przy użyciu Reacta, Next.js, Vite, Node.js, express.js, Tailwind a także tworzyć, korzystać i zarządzać bazami danych jak mongodb, postgreSQL, MariaDB, mySQL, Access. Najwięcej używam typescript'a i python'a ale znam także podstawy php oraz c++. Jako 20 latek moim jedynym doświadczeniem są, własne projekty,praktyki szkolne oraz strona zrobiona dla jednej firmy."
+  },
+  "technologies": {
+    "heading": "TECHNOLOGIES",
+    "description": "Technologie i Programy",
+    "main": "Next.js\nTypescript\nReact.js\nVite\nNode.js\nExpress.js\nSQL\nMongoDB\nAccess\nExcel\nPython\nGit\nWordpress"
+  },
+  "skills": {
+    "heading": "SKILLS",
+    "main": {
+      "0": {
+        "heading": "Full-stack web development with React.js, Next.js, Node.js, Express.js, Vite, TypeScript, PHP, and WordPress",
+        "icon": "FaReact"
+      },
+      "1": {
+        "heading": "Database design and administration",
+        "icon": "FaDatabase"
+      },
+      "2": {
+        "heading": "Proficient in Python with Pandas, NumPy, and Matplotlib",
+        "icon": "FaPython"
+      },
+      "3": {
+        "heading": "Experience with Active Directory and Linux server administration (CLI & GUI)",
+        "icon": "FaServer"
+      },
+      "4": {
+        "heading": "Basic knowledge of C++ ",
+        "icon": "FaCodeBranch"
+      },
+      "5": {
+        "heading": "Driving license",
+        "icon": "FaCar"
+      },
+      "6": {
+        "heading": "Graphic design and video editing (Adobe Photoshop, Premiere Pro, GIMP)",
+        "icon": "FaPhotoVideo"
+      }
+    }
+  },
+  "certificates": {
+    "heading": "CERTYFICATES",
+    "main": {
+      "0": {
+        "heading": "IT Technician Vocational Diploma – 95%",
+        "src": "/dyplom-zawodowy.png",
+        "downloadSrc": "/dyplom_zawodowy.pdf"
+      },
+      "1": {
+        "heading": "JavaScript Essentials certificate by CISCO",
+        "src": "/js-essentials-certificate.jpg",
+        "downloadSrc": "/JSE_certificate.pdf"
+      },
+      "2": {
+        "heading": "PCAP - Programming Essentials in Python certificate by CISCO",
+        "src": "/python-essentials-certificate.jpg",
+        "downloadSrc": "/PCAP.pdf"
+      },
+      "3": {
+        "heading": "CCNA - certificate by CISCO",
+        "src": "/CCNA-certificate.jpg",
+        "downloadSrc": "/CCNA.pdf"
+      }
+    }
+  },
+  "education": {
+    "heading": "EDUCATION",
+    "main": {
+      "0": {
+        "heading": "Part-time Computer Science – Lodz University of Technology (1st Year)",
+        "date": "2025 — Present",
+        "description": ""
+      },
+      "1": {
+        "heading": "IT Technician – Stanisław Staszic County School, Opoczno",
+        "date": "2020 — 2025",
+        "description": ""
+      }
+    }
+  },
+  "experience": {
+    "heading": "EXPERIENCE",
+    "main": {
+      "0": {
+        "heading": "Volunteer – Nakrętka Foundation, Stalowa Wola Poland",
+        "date": "20.09.2025 — Present",
+        "description": ""
+      },
+      "1": {
+        "heading": "Intern – ART-KOM, Opoczno Poland",
+        "date": "06.03.2023 — 31.03.2023",
+        "description": ""
+      }
+    }
+  },
+  "projects": {
+    "heading": "PROJECTS",
+    "main": {
+      "0": {
+        "heading": "Investo - Your Investment Tracker",
+        "description": "Investment tracker which helps to easily track your assets performance and visualize your portfolio with powerful interactive charts.",
+        "url": "https://investo.net.pl",
+        "imageUrl": "/investo.png",
+        "alt": "Preview Of The Investo Website",
+        "technologies": "Next.js\nReact\nTypescript\nMongoDB\nTailwind"
+      },
+      "1": {
+        "heading": "Record label data base \"Rebel Labels\"",
+        "description": "Data base of fictional record label \"Rebel Label\" made in Access. Helps with easy access to data of clients, atists, concerts, record label shop and wystawiania zamówień, faktur i przesunięć magazynowych",
+        "url": "/rebel.jpg",
+        "alt": "Podglad \"Rebel Label\" data base",
+        "technologies": "Access"
+      }
+    }
+  },
+  "footer": {
+    "heading": "FOOTER",
+    "description": "Website was made using Vite, React.js and Tailwind CSS, deployed with Vercel. Icons are from react-icons."
+  }
+}

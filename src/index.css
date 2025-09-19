@@ -1,0 +1,117 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+    font-family: "Inter";
+    src: url("../public/fonts/Inter/InterVariable.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+body{
+    font-family: "Inter",sans-serif;
+    font-weight:500;
+    cursor:default;
+}
+@theme {
+    --color-light-bg:hsl(40,30%,95%);
+    --color-light-text:hsl(220,50%,20%);
+    --color-light-text-header:hsl(220,50%,20%);
+    --color-light-main:hsl(40,70%,60%);
+    --color-light-main-text:hsl(220,40%,10%);
+    --color-light-mainSub:hsl(220,70%,55%);
+
+    --color-dark-bg:hsl(220,40%,10%);
+    --color-dark-text:var(--color-slate-400);
+    --color-dark-text-header:var(--color-slate-200);
+    --color-dark-main:hsl(40,70%,60%);
+    --color-dark-main-text:hsl(220,40%,10%);
+    --color-dark-mainSub:hsl(40,60%,50%);
+
+    --breakpoint-tiny:430px;
+}
+::selection {
+    background: hsl(40, 70%, 60%);
+    color: hsl(220,40%,10%);
+}
+
+/*@layer base {*/
+/*    ::selection {*/
+/*        @apply bg-[hsl(40,70%,60%)] text-[hsl(220,40%,10%)];*/
+/*    }*/
+/*}*/
+
+.changeTheme{
+    animation: themeChange 0.4s forwards;
+}
+
+@keyframes themeChange{
+    0% {transform: rotate(0deg) scale(1);}
+    50% { transform: rotate(360deg) scale(0); }
+    100% { transform: rotate(0deg) scale(1) ;  }
+}
+
+.shake:hover{
+    animation: elementShake 700ms forwards;
+}
+
+@keyframes elementShake{
+    0% {transform: rotate(0deg)}
+    50% { transform: rotate(45deg) }
+    100% { transform: rotate(0deg)}
+}
+.hero-bg{
+    background-image: url("/public/bg-light.png") ;
+    background-size: cover;
+}
+
+.dark .hero-bg {
+    /*background-color: var(--color-dark-bg);*/
+    /*background-image:*/
+    /*        linear-gradient(120deg, rgba(255, 255, 255, 0.1), transparent 50%),*/
+    /*        radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.2), transparent 50%);*/
+    background-image: url("/public/bg-dark.png") ;
+    background-size: cover;
+}
+.shine{
+    animation: shineAnimation 1s forwards;
+}
+
+@keyframes shineAnimation{
+    0%{
+        background: linear-gradient(90deg,var(--color-slate-400),var(--color-slate-300));
+    }
+    50%{
+        background: linear-gradient(90deg,var(--color-slate-400),var(--color-slate-300));
+    }
+    100%{
+        background: linear-gradient(90deg,var(--color-slate-400),var(--color-slate-300));
+    }
+}
+@layer utilities {
+    .animate-float {
+        animation: floatOrganic 4s ease-in-out infinite;
+    }
+}
+
+@keyframes floatAnimation1{
+    0%{
+        transform: translateY(0) translateX(0);
+    }
+    50%{
+        transform: translateY(-7px) translateX(7px);
+    }
+    100%{
+        transform: translateY(0) translateX(0);
+    }
+}
+@keyframes floatOrganic {
+    0%   { transform: translate(0, 0) rotate(0deg); }
+    25%  { transform: translate(6px, -10px) rotate(2deg); }
+    50%  { transform: translate(-4px, -15px) rotate(-2deg); }
+    75%  { transform: translate(-8px, -8px) rotate(1deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+}
+.hideLanguageTransition{
+    transition: opacity 0.02s ease-in, top 0.1s linear;
+}

@@ -1,0 +1,145 @@
+{
+  "header": {
+    "menu": {
+      "about": "O mnie",
+      "technologies": "Technologie",
+      "skills": "Umiejętności",
+      "certificates": "Certyfikaty",
+      "education": "Edukacja",
+      "experience": "Doświadczenie",
+      "projects": "Projekty"
+    }
+  },
+  "hero": {
+    "name": "Patryk Milczarczyk",
+    "cv": {
+      "heading": "Moje CV",
+      "href": "/CVPL2025.pdf"
+    },
+    "resume": {
+      "heading": "Moje Resume",
+      "href": "/RESUMEPL2025.pdf"
+    }
+  },
+  "about": {
+    "heading": "O MNIE",
+    "description": "Jestem 20 letnim studentem Politechniki Łódzkiej, który pasjonuje się informatyką oraz programowaniem.\nSkończyłem technikum informatyczne w Opocznie które dało mi dużo podstawowej wiedzy o systemach, bazach danych, algorytmach oraz stronach internetowych. W czasie trwania nauki w tej szkole uczęszczałęm do kółka Pythona, skończyłem wiele kursów oraz kilka moich pierwszych projektów.\nBardzo szybko sie rozwijam i przykładam sie do moich zainteresowań, w szkole średniej mocno wyprzedzałem materiał o czym świadczy fakt, że byłem finalistą olimpiady \"Rok przed dyplomem\", gdzie zdałem egzamin zawodowy rok przed faktycznym egzaminem bez przygotowania od strony nauczycieli. Zdałem maturę rozszerzając angielski, matematykę oraz informatykę.\nSwój wolny czas poświęcam na dalszą naukę lub tworzenie projektów takich jak, np. moja strona investo. Jako informatyk jednocześnie mam obycie z programowaniem oraz wiem jak komputery i różne systemy działają od podstaw.\nUmiem tworzyć strony internetowe od strony frontendu jak i backendu przy użyciu Reacta, Next.js, Vite, Node.js, express.js, Tailwind a także tworzyć, korzystać i zarządzać bazami danych jak mongodb, postgreSQL, MariaDB, mySQL, Access. Najwięcej używam typescript'a i python'a ale znam także podstawy php oraz c++. Jako 20 latek moim jedynym doświadczeniem są, własne projekty,praktyki szkolne oraz strona zrobiona dla jednej firmy."
+  },
+  "technologies": {
+    "heading": "TECHNOLOGIE",
+    "description": "Technologie i Programy",
+    "main": "Next.js\nTypescript\nReact.js\nVite\nNode.js\nExpress.js\nSQL\nMongoDB\nAccess\nExcel\nPython\nGit\nWordpress"
+  },
+  "skills": {
+    "heading": "UMIEJĘTNOŚCI",
+    "main": {
+      "0": {
+        "heading": "Tworzenie stron internetowych od podstaw po stronie frontendu i backendu z użyciem React.js, Next.js,Node.js,Express.js, Vite, Typescript, PHP oraz Wordpress",
+        "icon": "FaReact"
+      },
+      "1": {
+        "heading": "Tworzenie i obsługa baz danych",
+        "icon": "FaDatabase"
+      },
+      "2": {
+        "heading": "Dobra znajomość języka Python i bibliotek takich jak:Pandas, Numpy, Matplotlib",
+        "icon": "FaPython"
+      },
+      "3": {
+        "heading": "Umiejętność obsługi Active Directory oraz serwera na Linux w konsoli jak i graficznie",
+        "icon": "FaServer"
+      },
+      "4": {
+        "heading": "Podstawy języków: c++",
+        "icon": "FaCodeBranch"
+      },
+      "5": {
+        "heading": "Prawo jazdy kategori B",
+        "icon": "FaCar"
+      },
+      "6": {
+        "heading": "Tworzenie grafiki i montaż filmów korzystając z programów takich jak: Adobe Photoshop, Adobe Premiere Pro, GIMP",
+        "icon": "FaPhotoVideo"
+      }
+    }
+  },
+  "certificates": {
+    "heading": "CERTYFIKATY",
+    "main": {
+      "0": {
+        "heading": "Dyplom Zawodowy Technik Informatyk z wynikiem 95%",
+        "src": "/dyplom-zawodowy.png",
+        "downloadSrc": "/dyplom_zawodowy.pdf"
+      },
+      "1": {
+        "heading": "JavaScript Essentials certificate by CISCO",
+        "src": "/js-essentials-certificate.jpg",
+        "downloadSrc": "/JSE_certificate.pdf"
+      },
+      "2": {
+        "heading": "PCAP - Programming Essentials in Python certificate by CISCO",
+        "src": "/python-essentials-certificate.jpg",
+        "downloadSrc": "/PCAP.pdf"
+      },
+      "3": {
+        "heading": "CCNA - certificate by CISCO",
+        "src": "/CCNA-certificate.jpg",
+        "downloadSrc": "/CCNA.pdf"
+      }
+    }
+  },
+  "education": {
+    "heading": "WYKSZTAŁCENIE",
+    "main": {
+      "0": {
+        "heading": "Informatyka niestacjonarnie na Politechnice Łódzkiej (Pierwszy rok)",
+        "date": "2025 — Teraz",
+        "description": ""
+      },
+      "1": {
+        "heading": "Zespół Szkół Powiatowych im. Stanisława Staszica w Opocznie w Zawodzie Technik Informatyk",
+        "date": "2020 — 2025",
+        "description": ""
+      }
+    }
+  },
+  "experience": {
+    "heading": "DOŚWIADCZENIE",
+    "main": {
+      "0": {
+        "heading": "Umowa Wolontaryjna z fundacją \"Nakrętka\" ",
+        "date": "20.09.2025 — Teraz",
+        "description": ""
+      },
+      "1": {
+        "heading": "Praktyki w firmie „ART-KOM” w Opocznie",
+        "date": "06.03.2023 — 31.03.2023",
+        "description": ""
+      }
+    }
+  },
+  "projects": {
+    "heading": "PROJEKTY",
+    "main": {
+      "0": {
+        "heading": "Investo",
+        "description": "Tracker portfela inwestycyjnego gdzie możesz sledzić wartośc swoich aktywów",
+        "url": "https://investo.net.pl",
+        "imageUrl": "/investo.png",
+        "alt": "Podglad strony Investo",
+        "technologies": "Next.js\nReact\nTypescript\nMongoDB\nTailwind"
+      },
+      "1": {
+        "heading": "Baza danych wytwórni muzycznej Rebel Labels",
+        "description": "Baza danych fikcyjnej wytwórni muzycznej \"Rebel Label\" stworzona w Access. Pozwala na łatwy dostęp do danych klientów, artystów, tras koncertowych, sklepu wytwórni oraz wystawiania zamówień, faktur i przesunięć magazynowych",
+        "url": "/rebel.jpg",
+        "alt": "Podglad Bazy Danych Rebel Label",
+        "technologies": "Access"
+      }
+    }
+  },
+  "footer": {
+    "heading": "STOPKA",
+    "description": "Strona stworzona w Vite z React.js i Tailwind CSS, zdeployowana w Vercelu. Ikony są z react-icons."
+  }
+}
