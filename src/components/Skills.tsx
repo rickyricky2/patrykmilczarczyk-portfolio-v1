@@ -16,7 +16,7 @@ const icons:Record<string,ReactNode> = {
 }
 
 export default function Skills() {
-    const {ref,inView} = useInView();
+    const {ref,inView} = useInView({ rootMargin: "-20% 0px -20% 0px" });
     const {t} = useTranslation();
 
     return (

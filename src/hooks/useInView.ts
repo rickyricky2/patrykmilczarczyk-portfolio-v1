@@ -9,7 +9,7 @@ export function useInView(options?: IntersectionObserverInit){
 
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => setInView(entry.isIntersecting));
-        },{ threshold:0.9, ...options}
+        },{ ...options}
         );
 
         observer.observe(ref.current!);

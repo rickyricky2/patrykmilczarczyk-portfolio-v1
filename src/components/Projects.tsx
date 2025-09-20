@@ -16,12 +16,12 @@ export default function Projects(){
             </div>
             <div className={"my-10 w-full lg:w-[80%] tracking-tight flex flex-col gap-10 sm:gap-5"}>
                 {Object.entries(t("projects.main",{returnObjects:true})).map(([key, value]) => (
-                    <a key={key} href={value.url}>
+                    <a key={key} href={value.url} target={"_blank"}>
                         <section key={key} className={"flex flex-col max-sm:gap-10 sm:flex-row justify-between py-10 hover:bg-black/10 hover:shadow-md dark:hover:bg-white/6 px-5 -mx-5 backdrop-blur-xl rounded-md transition"}>
-                            <img src={value.imageUrl} alt={value.alt} width="300px"  className={"border-2 dark:border-white/15 h-full"} />
+                            <img src={value.imageUrl} alt={value.alt}  width="300px"  className={"border-2 dark:border-white/15 h-full"} />
                             <article className={"w-full lg:w-1/2 flex flex-col gap-2 sm:px-5"}>
                                 <h2 className={"text-light-text-header dark:text-dark-text-header font-semibold text-xl"}>
-                                    <a href={value.url}>{value.heading}</a>
+                                    <a href={value.url} target={"_blank"}>{value.heading}</a>
                                 </h2>
                                 <span className={"text-light-text dark:text-dark-text text-lg"}>{value.description}</span>
                                 <div className={"flex flex-wrap gap-x-10 gap-y-2 mt-5"}>
@@ -33,7 +33,9 @@ export default function Projects(){
                                     ))}
                                 </div>
                             </article>
-                            <FaGithub />
+                            <a href={value.githubUrl} target="_blank">
+                                <FaGithub />
+                            </a>
                         </section>
                     </a>
                 ))}

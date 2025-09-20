@@ -125,6 +125,7 @@
         "heading": "Investo - Your Investment Tracker",
         "description": "Investment tracker which helps to easily track your assets performance and visualize your portfolio with powerful interactive charts.",
         "url": "https://investo.net.pl",
+        "githubUrl": "https://github.com/rickyricky2/investo.git",
         "imageUrl": "/investo.png",
         "alt": "Preview Of The Investo Website",
         "technologies": "Next.js\nReact\nTypescript\nMongoDB\nTailwind"
@@ -132,7 +133,8 @@
       "1": {
         "heading": "Record label data base \"Rebel Labels\"",
         "description": "Data base of fictional record label \"Rebel Label\" made in Access. Helps with easy access to data of clients, atists, concerts, record label shop and wystawiania zamówień, faktur i przesunięć magazynowych",
-        "url": "/rebel.jpg",
+        "url": "/rebel.png",
+        "githubUrl": "https://github.com/rickyricky2/Rebel-Records-DB.git",
         "alt": "Podglad \"Rebel Label\" data base",
         "technologies": "Access"
       }

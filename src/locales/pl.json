@@ -125,6 +125,7 @@
         "heading": "Investo",
         "description": "Tracker portfela inwestycyjnego gdzie możesz sledzić wartośc swoich aktywów",
         "url": "https://investo.net.pl",
+        "githubUrl": "https://github.com/rickyricky2/investo.git",
         "imageUrl": "/investo.png",
         "alt": "Podglad strony Investo",
         "technologies": "Next.js\nReact\nTypescript\nMongoDB\nTailwind"
@@ -132,7 +133,9 @@
       "1": {
         "heading": "Baza danych wytwórni muzycznej Rebel Labels",
         "description": "Baza danych fikcyjnej wytwórni muzycznej \"Rebel Label\" stworzona w Access. Pozwala na łatwy dostęp do danych klientów, artystów, tras koncertowych, sklepu wytwórni oraz wystawiania zamówień, faktur i przesunięć magazynowych",
-        "url": "/rebel.jpg",
+        "url": "/rebel.png",
+        "githubUrl": "https://github.com/rickyricky2/Rebel-Records-DB.git",
+        "imageUrl": "/rebel.png",
         "alt": "Podglad Bazy Danych Rebel Label",
         "technologies": "Access"
       }
