@@ -92,7 +92,7 @@
     "heading": "WYKSZTAŁCENIE",
     "main": {
       "0": {
-        "heading": "Informatyka niestacjonarnie na Politechnice Łódzkiej (Pierwszy rok)",
+        "heading": "Informatyka w trybie niestacjonarnym na Politechnice Łódzkiej (Pierwszy rok)",
         "date": "2025 — Teraz",
         "description": ""
       },
@@ -108,7 +108,7 @@
     "main": {
       "0": {
         "heading": "Umowa Wolontaryjna z fundacją \"Nakrętka\" ",
-        "date": "20.09.2025 — Teraz",
+        "date": "18.08.2025 — Teraz",
         "description": ""
       },
       "1": {
@@ -128,7 +128,7 @@
         "githubUrl": "https://github.com/rickyricky2/investo.git",
         "imageUrl": "/investo.png",
         "alt": "Podglad strony Investo",
-        "technologies": "Next.js\nReact\nTypescript\nMongoDB\nTailwind"
+        "technologies": "Next.js\nReact.js\nNode.js\nTypescript\nMongoDB\nTailwind"
       },
       "1": {
         "heading": "Baza danych wytwórni muzycznej Rebel Labels",

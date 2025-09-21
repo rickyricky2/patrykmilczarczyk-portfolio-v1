@@ -107,7 +107,7 @@
     "main": {
       "0": {
         "heading": "Volunteer – Nakrętka Foundation, Stalowa Wola Poland",
-        "date": "20.09.2025 — Present",
+        "date": "18.08.2025 — Present",
         "description": ""
       },
       "1": {
@@ -127,7 +127,7 @@
         "githubUrl": "https://github.com/rickyricky2/investo.git",
         "imageUrl": "/investo.png",
         "alt": "Preview Of The Investo Website",
-        "technologies": "Next.js\nReact\nTypescript\nMongoDB\nTailwind"
+        "technologies": "Next.js\nReact.js\nNode.js\nTypescript\nMongoDB\nTailwind"
       },
       "1": {
         "heading": "Record label data base \"Rebel Labels\"",
