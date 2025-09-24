@@ -20,8 +20,10 @@ export default function LanguageSwitch(){
     useLayoutEffect(() => {
         const lng = localStorage.getItem("language") || navigator.language;
         if(lng.startsWith("pl")){
+            i18n.changeLanguage("pl");
             setPickedLanguage("pl");
         }else{
+            i18n.changeLanguage("en");
             setPickedLanguage("en");
         }
     }, []);
