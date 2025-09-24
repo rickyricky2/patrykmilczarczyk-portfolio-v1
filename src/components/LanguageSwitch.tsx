@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { IoIosArrowDown } from "react-icons/io";
-import {useState} from "react";
+import {useState, useLayoutEffect} from "react";
 import { useClickOutside} from "../hooks/useClickOutside.ts";
 
 const languages = [{
@@ -17,12 +17,23 @@ export default function LanguageSwitch(){
     const [pickedLanguage, setPickedLanguage] = useState("pl");
     const [isOpen, setIsOpen] = useState(false);
 
+    useLayoutEffect(() => {
+        const lng = localStorage.getItem("language") || navigator.language;
+        if(lng.startsWith("pl")){
+            setPickedLanguage("pl");
+        }else{
+            setPickedLanguage("en");
+        }
+    }, []);
+
     const ref  = useClickOutside( () => setIsOpen(false) );
     const { i18n } = useTranslation();
 
     const changeLanguage = (lng: string) => {
         i18n.changeLanguage(lng);
+        localStorage.setItem("language", lng);
     };
+
 
     return(
         <div onClick={() => setIsOpen(!isOpen)}
