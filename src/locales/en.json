@@ -130,6 +130,15 @@
         "technologies": "Next.js\nReact.js\nNode.js\nTypescript\nMongoDB\nTailwind"
       },
       "1": {
+        "heading": "Website for foundation \"Nakrętka\"",
+        "description": "website for foundation made in Webador ( client choice ) with full SEO and Google Analytics connected",
+        "url": "/fundacja-nakretka.png",
+        "githubUrl": "",
+        "imageUrl": "/fundacja-nakretka.png",
+        "alt": "Preview of the website for foundation \"Nakrętka\"",
+        "technologies": "Webador\nGoogle Analytics"
+      },
+      "2": {
         "heading": "Record label data base \"Rebel Labels\"",
         "description": "Data base of fictional record label \"Rebel Label\" made in Access. Helps with easy access to data of clients, atists, concerts, record label shop and wystawiania zamówień, faktur i przesunięć magazynowych",
         "url": "/rebel.png",

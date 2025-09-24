@@ -131,6 +131,15 @@
         "technologies": "Next.js\nReact.js\nNode.js\nTypescript\nMongoDB\nTailwind"
       },
       "1": {
+        "heading": "Strona dla fundacji \"Nakrętka\"",
+        "description": "Strona dla fundacji stworzona w kreatorze Webador ( wybór klienta ) z pełnym SEO oraz z ustawionym Google Analytics",
+        "url": "/fundacja-nakretka.png",
+        "githubUrl": "",
+        "imageUrl": "/fundacja-nakretka.png",
+        "alt": "Podglad strony dla fundacji \"Nakrętka\"",
+        "technologies": "Webador\nGoogle Analytics"
+      },
+      "2": {
         "heading": "Baza danych wytwórni muzycznej Rebel Labels",
         "description": "Baza danych fikcyjnej wytwórni muzycznej \"Rebel Label\" stworzona w Access. Pozwala na łatwy dostęp do danych klientów, artystów, tras koncertowych, sklepu wytwórni oraz wystawiania zamówień, faktur i przesunięć magazynowych",
         "url": "/rebel.png",
