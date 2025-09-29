@@ -36,16 +36,16 @@ export default function NavMobile(){
 
     return(
         <>
-        <div ref={buttonRef} className={"w-[40px] h-[40px] lg:hidden z-[9999] fixed top-5 right-5 rounded-lg flex flex-col gap-1 items-center justify-center"}
+        <div ref={buttonRef} className={"w-[40px] h-[40px] mobileNavButton z-[9999] fixed top-5 right-5 rounded-lg flex flex-col gap-1 items-center justify-center"}
             onClick={() => setIsOpen(!isOpen)}>
             <span className={`bg-light-text dark:bg-dark-text hover:bg-light-main dark:hover:bg-dark-main w-[28px] h-[3px] transition rounded-full ${isOpen ? "rotate-45 translate-y-[6px]" : ""}`}/>
             <span className={`bg-light-text dark:bg-dark-text hover:bg-light-main dark:hover:bg-dark-main w-[28px] h-[3px] transition rounded-full ${isOpen ? "rotate-45 -translate-y-[1px]" : ""}`}/>
             <span className={`bg-light-text dark:bg-dark-text hover:bg-light-main dark:hover:bg-dark-main w-[28px] h-[3px] transition rounded-full ${isOpen ? "-rotate-45 -translate-y-[8px]" : ""}`}/>
         </div>
-        <nav className={`w-full transition-all h-full lg:hidden fixed top-0 bg-light-bg/85 backdrop-blur-sm z-[999] 
-                    py-20 dark:bg-transparent overflow-hidden ${isOpen ? "right-5" : "-right-100 opacity-0"}`}>
-            <div className={"flex flex-col gap-20 h-full"}>
-                <div className={"flex justify-end items-center gap-10 h-full"}>
+        <nav className={`w-full mobileNav transition-all h-full fixed top-0 bg-light-bg/80 backdrop-blur-sm z-[999] 
+                    py-10 px-5 dark:bg-transparent overflow-hidden ${isOpen ? "right-0" : "-right-100 opacity-0"}`}>
+            <div className={"flex flex-col gap-10 h-full overflow-auto mt-10"}>
+                <div className={"flex justify-end items-center gap-10 h-auto"}>
                     <div ref={languageRef}>
                         <LanguageSwitch/>
                     </div>
@@ -53,7 +53,7 @@ export default function NavMobile(){
                         <ThemeSwitchButton/>
                     </div>
                 </div>
-                <ul className={"flex flex-col gap-20 text-2xl font-semibold items-end uppercase"}>
+                <ul className={"flex flex-col gap-10 text-2xl font-semibold items-end uppercase"}>
                     <li className={"flex flex-col group"}>
                         <a href={"#about"}>{t("header.menu.about")}</a>
                         <span className={"min-w-0 max-w-0 h-[3px] rounded-lg bg-light-main dark:bg-dark-main group-hover:min-w-full transition-all z-[100]"}/>

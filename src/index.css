@@ -115,3 +115,12 @@ body{
 .hideLanguageTransition{
     transition: opacity 0.02s ease-in, top 0.1s linear;
 }
+@media (min-width: 1490px){
+    .nav{
+        display: block;
+    }
+    .navMobile,
+    .mobileNavButton{
+        display:none;
+    }
+}

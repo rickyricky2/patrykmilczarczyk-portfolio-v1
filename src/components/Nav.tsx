@@ -6,8 +6,8 @@ export default function Nav(){
     const { t } = useTranslation();
 
     return(
-        <nav className={`w-full max-lg:hidden transition-all h-full sticky top-0 bg-light-bg/85 backdrop-blur-sm z-[999] 
-                    py-25 dark:bg-transparent overflow-hidden`}>
+        <nav className={`w-full nav hidden transition-all h-full sticky top-0 z-[999] 
+                    py-25 bg-transparent overflow-hidden`}>
             <div className={"flex flex-col gap-20 h-full"}>
                 <div className={"flex justify-end items-center gap-10 h-full"}>
                     <LanguageSwitch/>
